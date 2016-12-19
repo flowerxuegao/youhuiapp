@@ -1,0 +1,262 @@
+<html>
+	<head>
+		 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title></title>
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<style type="text/css">
+			body{
+				margin:0;
+				padding:0;
+				background:#fff;
+			}
+			blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h2,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul,li,img{
+		margin:0;
+		padding:0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			div{
+				box-sizing: border-box;
+				
+			}
+			a{
+				text-decoration: none;
+				color:#000;
+				font-size:0.5rem;
+			}
+			.header{
+				width:100%;
+				height:2rem;
+				background:#F84056;
+				position:relative;
+				color:#fff;
+			}
+			
+			.title{
+				width:4rem;
+				height:0.66rem;
+				position:absolute;
+				font-size:0.66rem;
+				color:#fff;
+				font-weight:bold;
+				top:0;
+				bottom:0;
+				left:0;
+				right:0;
+				margin:auto;
+				left:1.9rem;
+			}
+			.back{
+				width:0.6rem;
+				height:0.6rem;
+				background:url(img/back.png);
+				background-size:100% 100%;
+				position:absolute;
+				top:0;
+				bottom:0;
+				margin:auto 0;
+				margin-left:0.75rem;
+				
+			}
+			.message{
+				width:100%;
+				height:2.5rem;
+				font-size:1rem;
+				font-weight:bold;
+				
+			}
+			.message .left{
+				line-height:2.5rem;
+				margin-left:0.7rem;
+				float:left;
+			}
+			.message .right{
+				width:4.5rem;
+				height:1.5rem;
+				background:#fff;
+				text-align: center;
+				line-height:1.5rem;
+				float:right;
+				margin-top:0.5rem;
+				margin-right:0.75rem;
+				border-radius:0.5rem;
+				color:#FF4F64;
+				border:0.1rem solid #FF4F64;
+			}
+			.message_box{
+				width:100%;
+				height:9.5rem;
+				background:#FFFAF3;
+				border-top:0.2rem solid #F84056;
+				border-bottom:0.2rem solid #F84056;
+				padding:0 0.7rem;
+				color:#BEBBB6;
+				box-sizing: border-box;
+			}
+			.message_box li{
+				width:100%;
+				height:2rem;
+				border-bottom:0.1rem solid #BEBBB6;
+				line-height:2rem;
+				position:relative;
+			}
+			.message_box li span{
+				position:absolute;
+				right:1.5rem;
+			}
+			.message_box li:nth-child(1){
+				height:2.5rem;
+				line-height:3rem;
+			}
+			
+			.mask{
+				width:100%;
+				height:14rem;
+				background:#ccc;
+				opacity:0.6;
+				position:absolute;
+				top:0;
+				left:0;
+				z-index:2;
+			}
+			.payxq{
+				width:100%;
+				height:auto;
+				background:#fff;
+				margin-top:-0.5rem;
+			}
+			.payxq li{
+				width:100%;
+				height:2.8rem;
+				line-height:2.8rem;
+				box-sizing:border-box;
+				padding:0 1rem;
+				border-bottom:0.1rem solid #DEDBDC;
+				font-size:0.9rem;
+			}
+			.payxq li:last-child{
+				border:0;
+			}
+			.payxq li:nth-child(1){
+				text-align: center;
+				font-weight:bold;
+				font-size:1rem;
+				line-height:3.5rem;
+			}
+			.payxq li:last-child{
+				height:3.8rem;
+				font-size:1rem;
+				position:relative;
+			}
+			.payxq li span:nth-child(1){
+				color:#B5B4B4;
+				position:absolute;
+				left:1rem;
+			}
+			.payxq li span:nth-child(2){
+				color:#000;
+				position:absolute;
+				right:1rem;
+			}
+			.payxq li:last-child span{
+				color:#000;
+			}
+			.confirm{
+				width:15rem;
+				height:2rem;
+				background:#F84056;
+				position:absolute;
+				left:0;
+				right:0;
+				margin:0 auto;
+				color:#fff;
+				font-size:1.2rem;
+				text-align:center;
+				line-height:2rem;
+				border-radius:0.35rem;
+				bottom:-1.02rem;
+			}
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		<!--遮罩-->
+		<div class = "mask">
+			
+		</div>
+		<div class = "header">
+			<div class = "back">
+			</div>
+			<div class = "title">订单确认</div>
+		</div>
+		<div class = "message">
+			<div class = "left">收货人信息</div>
+			<div class = "right">保存地址</div>
+		</div>
+		<ul class = "message_box">
+			<li>姓名</li>
+			<li>手机号码</li>
+			<li>
+				省份-城市-小区
+				<span>&gt;</span>
+			</li>
+			<li>详细地址</li>
+		</ul>
+		<!--付款详情-->
+		<ul class = "payxq">
+			<li>
+				付款详情
+			</li>
+			<li>
+				<span>订单信息</span>
+				<span>星星珍珠水钻耳钉</span>
+			</li>
+			<li>
+				<span>支付宝账号</span>
+				<span>1963427</span>
+			</li>
+			<li>
+				<span>付款方式</span>
+				<span>工商银行（9929）</span>
+			</li>
+			<li>
+				<span>订单金额</span>
+				<span>34.00元</span>
+			</li>
+			<li>
+				<span>需付款</span>
+				<span>34.00元</span>
+				<div class = "confirm">确认付款</div>
+			</li> 
+		</ul>
+		
+		
+		
+		
+		<script type="text/javascript">
+			function resize(originSize,type){
+			var type = type ||"x";
+			var widths = document.documentElement.clientWidth;
+			var heights = document.documentElement.clientHeight;
+			if(type=="x")友汇
+			{
+				var scale = widths/originSize*100;
+			}
+			else if(type =="y")
+			{
+				var scale = heights/originSize*100;
+			}
+			document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+		}
+		window.onload = function(){
+			resize(1334,"y");
+			
+		}
+		
+		</script>
+	</body>
+</html>

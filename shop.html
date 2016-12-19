@@ -1,0 +1,317 @@
+<html>
+	<head>
+		 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title></title>
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<style type="text/css">
+			body{
+				margin:0;
+				padding:0;
+				background:#F0F0F0;
+			}
+			blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h2,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul,li,img{
+		margin:0;
+		padding:0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			a{
+				text-decoration: none;
+				color:#000;
+				font-size:0.5rem;
+			}
+			
+			
+			.search{
+				width:0.48rem;
+				height:0.66rem;
+				position:absolute;
+				top:0;
+				bottom:0;
+				margin:auto 0;
+				right:2.17rem;
+				font-size:0.6rem;
+				font-weight:bold;
+			}
+			.dot,.icon-sangedian{
+				width:0.15rem;
+				height:0.8rem;
+				position:absolute;
+				top:0;
+				bottom:0;
+				margin:auto 0;
+				right:0.75rem;
+				text-align: center;
+				color:#fff;
+				font-size:0.6rem;
+			}
+			.pic{
+				width:100%;
+				height:14rem;
+			}
+			.pic img{
+				width:100%;
+				height:100%;
+			}
+			.scfx{
+				width:100%;
+				height:2rem;
+				border-top:0.1rem solid #000;
+				border-bottom:0.1rem solid #000;
+				box-sizing: border-box;
+			}
+			.collection,.share{
+				width:50%;
+				height:100%;
+				float:left;
+				box-sizing: border-box;
+				position:relative;
+			}
+			.collection{
+				border-right:0.1rem solid #000;
+			}
+			.collection_box,.share_box{
+				width:3rem;
+				height:1.5rem;
+				position:absolute;
+				left:0;
+				right:0;
+				top:0;
+				bottom:0;
+				margin:auto;
+			}
+			.logo{
+				width:1rem;
+				height:1rem;
+				background:url(img/tb2.png);
+				background-size:100% 100%;
+				position:absolute;
+				top:0;
+				bottom:0;
+				margin:auto 0;
+				
+			}
+			.sharelogo{
+				background:url(img/tb1.png);
+				background-size:100% 100%;
+			}
+			.word{
+				width:2rem;
+				height:1.5rem;
+				position:absolute;
+				left:1rem;
+				line-height:1.5rem;
+				font-size:0.5rem;
+				text-align: center;
+			}
+			.content{
+				width:100%;
+				height:4.5rem;
+				background:#fff;
+				margin-top:1rem;
+				box-sizing: border-box;
+				border-top:0.1rem solid #D8D8D8;
+				border-bottom:0.1rem solid #D8D8D8;
+				padding:0.5rem;
+			}
+			.title{
+				font-weight:bold;
+				font-size:0.5rem;
+				box-sizing: border-box;
+				padding:0 0.5rem;
+				margin-bottom:0.5rem;
+			}
+			.content p{
+				font-size:0.5rem;
+				padding:0 0.5rem;
+				margin-bottom:0.4rem;
+			}
+			.content span{
+				font-size:0.5rem;
+				padding:0 0.5rem;
+				color:red;
+			}
+			.searchkeyword{
+				width:100%;
+				height:3rem;
+				margin-top:1rem;
+				background:#fff;
+				box-sizing: border-box;
+				border-top:0.1rem solid #D8D8D8;
+				border-bottom:0.1rem solid #D8D8D8;
+			}
+			.search_title{
+				font-size:0.5rem;
+				box-sizing: border-box;
+				padding:0.5rem 0.5rem;
+			
+			}
+			.searchkeyword li {
+				float:left;
+				width:2.5rem;
+				height:0.8rem;
+				background:#F87282;
+				border-radius: 1.5rem;;
+				margin-left:0.5rem;
+				text-align: center;
+				line-height:0.8rem;;
+			}
+			.searchkeyword a{
+				color:#fff;
+				font-size:0.5rem;
+				
+			}
+			.show{
+				width:100%;
+				height:5rem;
+				background:#fff;
+				margin-top:1rem;
+				box-sizing: border-box;
+				border-top:0.1rem solid #D8D8D8;
+				padding:0.2rem 0.5rem;
+				font-size:0.5rem;
+			}
+			.show div{
+				width:100%;
+				height:33.3333%;
+			}
+			.show span{
+				float:left;
+				width:0.2rem;
+				height:0.5rem;
+				background:#F87282;
+				margin-right:0.2rem;
+				margin-top:0.3rem;
+			}
+			.top{
+				line-height:1rem;
+				font-weight:bold;
+			}
+			.center{
+				color:#B8B2B3;
+				border-bottom:0.1rem solid #DAD9DA;
+			}
+			.bottom{
+				positin:relative;
+				box-sizing: border-box;
+				padding:0.4rem 0.5rem;
+			}
+			.bottom .shopcar{
+				width:0.6rem;
+				height:0.6rem;
+				background:url(img/shopcar.png);
+				background-size:100% 100%;
+			}
+			.bottom .addshops{
+				width:3rem;
+				height:0.5rem;
+				text-align: center;
+				line-height:0.5rem;
+				background:#ccc;
+				border:0.1rem solid #F87282;
+				color:#F87282;
+				float:right;
+				margin-top:-0.5rem;
+				border-radius:1.5rem;
+			}
+			.bottom .jkshop{
+				width:2.5rem;
+				height:0.5rem;
+				text-align: center;
+				line-height:0.5rem;
+				background:#F87282;
+				border:0.1rem solid #F87282;
+				color:#fff;
+				float:right;
+				margin-left:0.5rem;
+				margin-top:-0.5rem;
+				border-radius:1.5rem;
+			}
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		<div class = "pic">
+			<img src="img/watch.jpg" alt="" />
+		</div>
+		<!--收藏分享-->
+		<div class = "scfx">
+			<div class = "collection">
+				<div class = "collection_box">
+					<a href="javascript:;">
+						<div class = "word">收藏766</div>
+					</a><div class = "logo"></div>
+					
+				</div>
+				
+			</div>
+			<div class = "share">
+				<div class = "share_box">
+					<a href="javascript:;">
+						<div class = "logo sharelogo"></div>
+					</a>
+					<div class = "word">分享</div>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class = 'content'>
+			<div class = "title">
+				[翡翠宝石手表]女士时尚精钢金色珐琅，圆形简单大...
+			</div>
+			<p>简单大方的设计感，很适合职场拼杀的风范，很有品味，金与蓝的结合，经典传承，手表是职场女性的身份象征，装饰大过于它的实用，有机结合，带来全新...</p>
+			<span>¥688.00</span>
+		</div>
+		<!--搜索关键词-->
+		<div class = "searchkeyword">
+			<div class = "search_title">搜索关键词</div>
+			<ul>
+				<li><a href="">玫瑰金色</a></li>
+				<li><a href="">镶嵌真钻</a></li>
+				<li><a href="">生活防水</a></li>
+			</ul>
+		</div>
+		<!--产品展示部分-->
+		<div class = "show">
+			<div class = "top">
+				<span></span>
+				产品展示
+			</div>
+			<div class = "center">
+				手表的装饰往往大过于它的实用性，一款好看的手表更能够成为腕间的风景，金色和白色融合，就像女孩天生带着女人的优雅。蓝宝石的镶嵌更能
+			</div>
+			<div class = "bottom">
+				<div class = "shopcar"></div>
+				<div class = "jkshop">即可购买</div>
+				<div class = "addshops" style = "background:#F0F0F0;">加入购物车</div>
+				
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			function resize(originSize,type){
+			var type = type ||"x";
+			var widths = document.documentElement.clientWidth;
+			var heights = document.documentElement.clientHeight;
+			if(type=="x")友汇
+			{
+				var scale = widths/originSize*100;
+			}
+			else if(type =="y")
+			{
+				var scale = heights/originSize*100;
+			}
+			document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+		}
+		window.onload = function(){
+			resize(1334,"y");
+			
+		}
+		
+		</script>
+	</body>
+</html>
